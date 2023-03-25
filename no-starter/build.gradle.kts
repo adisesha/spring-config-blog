@@ -25,6 +25,9 @@ dependencies {
 	implementation("org.springframework:spring-webmvc:6.0.7")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
+	testImplementation("org.springframework.boot:spring-boot-test")
+	testImplementation("org.springframework:spring-test:6.0.7")
+	testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.2")
 }
 
 tasks.withType<KotlinCompile> {
